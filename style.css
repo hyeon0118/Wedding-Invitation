@@ -1,7 +1,8 @@
-@font-face {
+/* @font-face {
   font-family: myWebFont;
   src: url('a엄마의편지L.ttf') format('truetype');
-}
+} */
+
 
 :root {
   --bg: #eff3f0;
@@ -16,8 +17,9 @@ h1 {
 
 body,
 html {
+  font-family: 'Gowun Dodum', sans-serif;
   height: 100%;
-  font-family: myWebFont;
+  /* font-family: myWebFont; */
   width: 100%;
   top: 0;
   left: 0;
