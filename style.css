@@ -1,7 +1,14 @@
 /* @font-face {
-  font-family: myWebFont;
+  font-family: 'myWebFont';
   src: url('a엄마의편지L.ttf') format('truetype');
 } */
+
+@font-face {
+  font-family: 'Cafe24Oneprettynight';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 
 :root {
@@ -17,7 +24,7 @@ h1 {
 
 body,
 html {
-  font-family: 'Gowun Dodum', sans-serif;
+  font-family: 'Cafe24Oneprettynight', sans-serif;
   height: 100%;
   /* font-family: myWebFont; */
   width: 100%;
